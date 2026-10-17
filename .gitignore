@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Local environments
+python_envs/
+
+# Generated data: regenerate with the scripts (see README)
+*.npy
+results/
+mcmc/
+mode_content_files/
+logs/
+archive/
+
+# Figures: only those in Sec. II and Apps. A-B of the paper are tracked
+figs/*
+!figs/1_mass_ratio_trend_22.pdf
+!figs/2_antialigned_trend_22.pdf
+!figs/3_mass_ratio_trend_lm.pdf
+!figs/4_freq_evolution_dw_lr.pdf
+
+# Manuscript drafts and reference papers
+/*.pdf

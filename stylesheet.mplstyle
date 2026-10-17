@@ -1,0 +1,37 @@
+text.usetex         : True
+text.latex.preamble : \usepackage{amsmath}\usepackage{amssymb}\usepackage{siunitx}
+
+font.family         : serif
+font.style          : italic
+font.size           : 9.0
+font.serif          : Times New Roman
+
+figure.dpi          : 100
+figure.autolayout   : False
+
+axes.labelsize      : 9
+axes.linewidth      : 0.5
+axes.labelpad       : 3.0 
+axes.titlesize      : 9
+
+xtick.direction     : in
+ytick.direction     : in
+xtick.major.width   : 0.5
+xtick.minor.width   : 0.5
+xtick.major.size    : 2
+xtick.minor.size    : 1
+ytick.major.size    : 2
+ytick.minor.size    : 1
+ytick.major.width   : 0.5
+ytick.minor.width   : 0.5
+
+xtick.labelsize     : 9
+ytick.labelsize     : 9
+
+legend.fontsize     : 9
+legend.frameon      : False
+ 
+lines.linewidth     : 0.8
+
+savefig.dpi         : 300
+savefig.bbox        : tight
